@@ -5,7 +5,7 @@
 net.optimized_memory = 0 
 mini_batch = 1, batch = 64, time_steps = 1, train = 0 
    layer   filters  size/strd(dil)      input                output
-   0 Create CUDA-stream - 0 
+   0 Create CUDA-stream - 0 6060606060
  Create cudnn-handle 0 
 conv     32       3 x 3/ 1    608 x 608 x   3 ->  608 x 608 x  32 0.639 BF
    1 conv     64       3 x 3/ 2    608 x 608 x  32 ->  304 x 304 x  64 3.407 BF
